@@ -1,0 +1,13 @@
+Orlando Villegas - Francisco Cattaneo - Santiago Fabiano
+
+A- ¿Qué color de fondo tiene su página en el TESTING ?
+En TESTING quedo el fondo de color AZUL
+
+B- ¿Qué color de fondo tiene su página en el DESARROLLO ?
+En DESARROLLO quedo el fondo de color AMARILLO
+
+C- ¿Qué color de fondo tiene su página en el MASTER?
+En MAIN quedo el fondo de color AZUL
+
+D- ¿Qué favicon quedó en el MASTER el de ALFA o el de BETA?
+En el main quedo el favicon de BETA.
