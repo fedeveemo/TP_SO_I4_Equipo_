@@ -11,3 +11,25 @@ En MAIN quedo el fondo de color AZUL
 
 D- ¿Qué favicon quedó en el MASTER el de ALFA o el de BETA?
 En el main quedo el favicon de BETA.
+
+E- ¿Algún integrante tuvo problemas al hacer el push?
+Si, BETA y GAMMA tuvieron problemas para pushear.
+
+F- ¿Qué problemas surgieron?
+BETA y GAMMA pisaban las lineas de ALFA, ya que modifican las mismas lineas
+que ALFA ya pusheo.
+
+G- ¿Qué soluciones pueden aplicar y cual seria la consecuencia de cada solución
+adoptada?
+1- Despues de que cada modificicacion, los otros integrantes deben pullear para que tengan actualizados los datos actuales del repo.
+2- Dejar saltos de linea con echo para que el que haga pull modifique el codigo despues de las modificaciones realizadas.
+echo -e "Primera línea\nSegunda línea"
+echo "" >> archivo
+
+H- ¿Qué sucede si cada uno utiliza el push -f?
+Es como un SUDO, fuerza el pusheo y ignora cualquier otra modificacion que se haya realizado antes. Pushea pisando todo, dejando asi el
+archivo en el estado que el usuario la tenia localmente. (Sin importar como estaba antes.)
+
+I- ¿Qué debo hacer para que el index.html tengas todos los <p> de los puntos 18,19 y 20
+en DESARROLLO?
+Hacer un merge de TESTING a DESARROLLO cuando TESTING tenga los 3 <p>.
